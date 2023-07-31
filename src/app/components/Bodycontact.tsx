@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function Bodycontact() {
     return (
-        <div className="flex">
+        <div className="inline-flex">
             <div className="w-1/2">
                 <Image src="/logo.png" alt="" className="w-full" width={1024} height={1024} />
             </div>
@@ -26,7 +26,7 @@ export function Bodycontact() {
                             <textarea id="message" name="message" className="w-full px-3 py-2 rounded-lg focus:outline-none focus:ring focus:border-blue-300" placeholder="Digite sua mensagem" required></textarea>
                         </div>
                         <div className="">
-                            <button type="submit" className="px-4 py-2 w-full bg-blue-500 text-white rounded-lg hover:bg-blue-600">Enviar mensagem</button>
+                            <button type="submit" className="px-4 py-2 w-full bg-blue-500 hover:bg-blue-600 text-white rounded-lg">Enviar mensagem</button>
                         </div>
                     </form>
                 </div>
